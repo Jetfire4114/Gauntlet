@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Key
+      name: SpriteSheetItems_0
       rect:
         serializedVersion: 2
         x: 73
@@ -112,20 +112,20 @@ TextureImporter:
         width: 43
         height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66521a136e5e88440a76bbc3355950d3
-      internalID: -761077573
+      spriteID: 1efbb164d08430542a34e8758c0c7e01
+      internalID: -1078190830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pork
+      name: SpriteSheetItems_1
       rect:
         serializedVersion: 2
         x: 135
@@ -133,20 +133,20 @@ TextureImporter:
         width: 51
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73d326c0b3a423a45a9e9d72e5fd2e01
-      internalID: 1247623119
+      spriteID: fe0fea82c0557334b9685cbe7ee32f56
+      internalID: 1092244095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple
+      name: SpriteSheetItems_2
       rect:
         serializedVersion: 2
         x: 209
@@ -154,14 +154,77 @@ TextureImporter:
         width: 28
         height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc5fbbc7d26866445b7468aa8fbbb4d6
-      internalID: 1658466101
+      spriteID: 29a750ce2d896654f83967f265049b0e
+      internalID: -370888899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetItems_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 75
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7abbcddca5df6147a69d68401eb6438
+      internalID: 691554493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetItems_4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 72
+        width: 9
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b049385b87c0b479aff7d00b54d176
+      internalID: -546065445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetItems_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 14
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697b88c13a8b2e8448b6163dfc52f295
+      internalID: 845176630
       vertices: []
       indices: 
       edges: []
@@ -177,9 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pork: 1247623119
-      Key: -761077573
-      Apple: 1658466101
+      SpriteSheetItems_5: 845176630
+      SpriteSheetItems_4: -546065445
+      SpriteSheetItems_0: -1078190830
+      SpriteSheetItems_3: 691554493
+      SpriteSheetItems_2: -370888899
+      SpriteSheetItems_1: 1092244095
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
