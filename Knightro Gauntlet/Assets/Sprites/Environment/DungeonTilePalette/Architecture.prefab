@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4856099576138994144}
   - component: {fileID: 8521230077895212544}
   m_Layer: 0
-  m_Name: Dungeon
+  m_Name: Architecture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
