@@ -20,6 +20,7 @@ TagManager:
   - DoorCollider
   - Door
   - WinTrigger
+  - HitEffect
   layers:
   - Default
   - TransparentFX
@@ -29,7 +30,7 @@ TagManager:
   - UI
   - wallLayer
   - doorLayer
-  - 
+  - timer
   - 
   - 
   - 
