@@ -14,7 +14,14 @@ public class FoodController : MonoBehaviour
             {
                 Destroy(gameObject);
 
-                playerController.AddTime(3f);
+                if (gameObject.CompareTag("Apple"))
+                {
+                    playerController.AddTime(3f);
+                }
+                else if (gameObject.CompareTag("Meat"))
+                {
+                    playerController.AddTime(5f);
+                }
             }
         }
     }
